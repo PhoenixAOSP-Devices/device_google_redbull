@@ -214,3 +214,8 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor:64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
     vendor.qti.hardware.systemhelper@1.0.vendor
+
+# Google Battery/Toshay Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+	hardware/google/pixel-sepolicy/googlebattery \
+	hardware/google/pixel-sepolicy/input
