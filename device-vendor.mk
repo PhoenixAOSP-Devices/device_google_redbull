@@ -218,6 +218,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
+# Quick Tap
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false \
+    persist.columbus.model=tap7cls_redfin.tflite
+
 # Google Battery/Toshay Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
 	hardware/google/pixel-sepolicy/googlebattery \
