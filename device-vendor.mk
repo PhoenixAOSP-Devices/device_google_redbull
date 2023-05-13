@@ -219,3 +219,7 @@ PRODUCT_PACKAGES += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
 	hardware/google/pixel-sepolicy/googlebattery \
 	hardware/google/pixel-sepolicy/input
+
+# Modem Thermal Mitigation
+BOARD_VENDOR_SEPOLICY_DIRS += \
+        hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
