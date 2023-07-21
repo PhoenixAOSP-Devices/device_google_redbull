@@ -1,5 +1,5 @@
 # Device mask
-ro.build.fingerprint=google/redfin/redfin:13/TQ2A.230505.002/9891397:user/release-keys
+ro.build.fingerprint=google/redfin/redfin:13/TQ3A.230705.001/10216780:user/release-keys
 
 # Disable rescue party
 persist.device_config.configuration.disable_rescue_party=true
